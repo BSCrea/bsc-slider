@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="UTF-8">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.bscslider.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="assets/css/jquery.bscslider.css"/>
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css"/>
+</head>
+<body>
+	<div id="main">
+		<h1>BSC-Slider - jQuery plugin</h1>
+
+		<div class="slider slider1">
+			<img src="assets/imgs/img1.jpg"/>
+			<img src="assets/imgs/img2.jpg"/>
+			<img src="assets/imgs/img3.jpg"/>
+			<img src="assets/imgs/img4.jpg"/>
+			<img src="assets/imgs/img5.jpg"/>
+		</div>
+		<br/><br/>
+		<div class="slider slider2">
+			<img src="assets/imgs/img6.jpg"/>
+			<img src="assets/imgs/img7.jpg"/>
+			<img src="assets/imgs/img8.jpg"/>
+			<img src="assets/imgs/img9.jpg"/>
+			<img src="assets/imgs/img10.jpg"/>
+		</div>
+		
+	</div>
+	<script>
+		$('.slider1').bscSlider({
+			duration: 3000,
+			effect: 1,
+			effect_speed: 750,
+			easing: 'easeOutQuad'
+		});
+		$('.slider').bscSlider({
+			duration: 3000,
+			effect: 1,
+			effect_speed: 750,
+		});
+		//$('ul li:even').bscSlider({ minlength: 0, maxlength: 20 });
+	</script>
+
+</body>
+</html>
