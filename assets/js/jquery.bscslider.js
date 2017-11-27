@@ -12,13 +12,13 @@
 		el.mainWrap = $(base);
 		el.items = el.find('img');
 		el.default = {
-				autoplay		: true,
+				autoplay		: true,		// 
 			 	navigation		: false,    // Display navigation arrows
 				duration		: 6000,		// Length between transitions
 				effect			: 1,		// 0-None, 1-Fade, 2-Slide Over to Top, 3-Slide Over to Right, 4-Slide Over to Bottom, 5-Slide Over to Left, 6-Slide to Right, 7-Slide to Left, 8-Slide to Top, 9-Slide to Bottom, 10-Slide Remove to Right, 11-Slide Remove to Left, 12-Slide Remove to Top, 13-Slide Remove to Bottom, 14-Parallax to Right, 15-Parallax to Left, 16-Parallax to Top, 17-Parallax to Bottom
  				effect_speed	: 750,		// Speed of transition
-				easing			: 'swing',
-				height			: 300,
+				easing			: 'swing',	//
+				height			: 300,		// Height of the slider
 		};
 		el.settings = $.extend(
 			{},
